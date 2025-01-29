@@ -1,0 +1,6 @@
+[submodule "theme"]
+	path = theme
+	url = https://github.com/alexandrevicenzi/Flex.git
+[submodule "plugins/pelican_comment_system"]
+	path = plugins/pelican_comment_system
+	url = https://github.com/Scheirle/pelican_comment_system.git
