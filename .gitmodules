@@ -1,6 +1,8 @@
 [submodule "theme"]
 	path = theme
-	url = https://github.com/alexandrevicenzi/Flex.git
+	url = https://github.com/aliceinwire/Flex.git
+	branch = blog
 [submodule "plugins/pelican_comment_system"]
 	path = plugins/pelican_comment_system
-	url = https://github.com/Scheirle/pelican_comment_system.git
+	url = https://github.com/aliceinwire/pelican_comment_system.git
+	branch = blog

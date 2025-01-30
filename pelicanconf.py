@@ -2,17 +2,19 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'alicef'
-SITENAME = "Alicef's website"
-SITETITLE = "Alicef's website"
+AUTHOR = 'arisut'
+SITENAME = "Arisut's website"
+SITETITLE = "Arisut's website"
 SITESUBTITLE = 'Gentoo Kernel Project Leader'
-SITEURL = 'https://alicef.me'
+SITEURL = 'https://aliceinwire.github.io/blog/'
 SITELOGO = SITEURL + '/images/profile.png'
 FAVICON = SITEURL + '/images/favicon.ico'
 
 PATH = 'content'
 
 TIMEZONE = 'Asia/Tokyo'
+
+THEME = "theme"
 
 DEFAULT_LANG = 'en'
 
@@ -34,11 +36,11 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Gentoo', 'https://wiki.gentoo.org/wiki/User:Alicef'),
-         ('rss', '//blog.alicef.me/feeds/all.atom.xml'))
+         ('rss', '//aliceinwire.github.io/blog/feeds/all.atom.xml'))
 
 # Social widget
 SOCIAL = (('mastodon', 'https://fosstodon.org/@alicef'),
-        ('rss', 'https://alicef.me/feeds/all.atom.xml'))
+        ('rss', 'https://aliceinwire.github.io/blog/feeds/all.atom.xml'))
 
 DEFAULT_PAGINATION = 10
 
