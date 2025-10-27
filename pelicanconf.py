@@ -39,8 +39,8 @@ LINKS = (('Gentoo', 'https://wiki.gentoo.org/wiki/User:Alicef'),
 
 # Social widget
 SOCIAL = (
-        ('Bluesky', 'https://bsky.app/profile/yami-arisu.bsky.social'),
-        ('Threads', 'https://www.threads.com/@gyaru_arisu'),
+        ('bluesky', 'https://bsky.app/profile/yami-arisu.bsky.social'),
+        ('threads', 'https://www.threads.com/@gyaru_arisu'),
         ('x', 'https://x.com/arisu_yamikawa'),
         ('mastodon', 'https://fosstodon.org/@alicef'),
         ('rss', 'https://aliceinwire.github.io/feeds/all.atom.xml'))
