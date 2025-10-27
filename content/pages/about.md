@@ -5,7 +5,7 @@ Status: published
 
 ### Who I am
 
-Hello, my name is Arisu Tachibana (arisut)  
+Hello, my name is Arisu Tachibana ([arisut@gentoo](https://wiki.gentoo.org/wiki/User:Alicef))   
 Contributing to the following organizations:  
 - [@gentoo](https://github.com/gentoo)  
 - [@gkernelci](https://github.com/gkernelci)  
@@ -15,7 +15,6 @@ Contributing to the following organizations:
 
 <br>
 
-[arisut@gentoo](https://wiki.gentoo.org/wiki/User:Alicef)  
 Maintainer and developer of:  
 - [KernelCI kci-dev](https://github.com/kernelci/kci-dev)  
 - [GKernelCI](https://github.com/gkernelci)  

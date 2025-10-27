@@ -23,7 +23,6 @@ MAIN_MENU = True
 STATIC_PATHS = ['images', 'extra']
 
 EXTRA_PATH_METADATA = {
-#    'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},
     }
 
@@ -36,11 +35,15 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Gentoo', 'https://wiki.gentoo.org/wiki/User:Alicef'),
-         ('rss', '//aliceinwire.github.io/blog/feeds/all.atom.xml'))
+         ('rss', '//aliceinwire.github.io/feeds/all.atom.xml'))
 
 # Social widget
-SOCIAL = (('mastodon', 'https://fosstodon.org/@alicef'),
-        ('rss', 'https://aliceinwire.github.io/blog/feeds/all.atom.xml'))
+SOCIAL = (
+        ('Bluesky', 'https://bsky.app/profile/yami-arisu.bsky.social'),
+        ('Threads', 'https://www.threads.com/@gyaru_arisu'),
+        ('x', 'https://x.com/arisu_yamikawa'),
+        ('mastodon', 'https://fosstodon.org/@alicef'),
+        ('rss', 'https://aliceinwire.github.io/feeds/all.atom.xml'))
 
 DEFAULT_PAGINATION = 10
 
