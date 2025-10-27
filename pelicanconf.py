@@ -6,7 +6,7 @@ AUTHOR = 'arisut'
 SITENAME = "Arisut's website"
 SITETITLE = "Arisut's website"
 SITESUBTITLE = 'Gentoo Kernel Project Leader'
-SITEURL = 'https://aliceinwire.github.io/blog/'
+SITEURL = 'https://aliceinwire.github.io/'
 SITELOGO = SITEURL + '/images/profile.png'
 FAVICON = SITEURL + '/images/favicon.ico'
 
