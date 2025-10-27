@@ -2,7 +2,7 @@ Title: Pelican nvim and categories
 Date: 2020-02-25
 Category: blog
 Tags: pelican, blog
-Status: draft
+Status: published
 
 This post is a post I wrote in 2020 and updated in 2023.
 As you have already noticed from the "Powered by" in this blog,  
