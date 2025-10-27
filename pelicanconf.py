@@ -7,7 +7,7 @@ SITENAME = "Arisut's website"
 SITETITLE = "Arisut's website"
 SITESUBTITLE = 'Gentoo Kernel Project Leader'
 SITEURL = 'https://aliceinwire.github.io/'
-SITELOGO = SITEURL + '/images/profile.png'
+SITELOGO = SITEURL + '/images/profile.jpg'
 FAVICON = SITEURL + '/images/favicon.ico'
 
 PATH = 'content'
