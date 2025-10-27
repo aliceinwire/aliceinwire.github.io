@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'arisut'
 SITENAME = "Arisut's website"
 SITETITLE = "Arisut's website"
-SITESUBTITLE = 'Gentoo Kernel Project Leader'
+SITESUBTITLE = 'オタクに理解のあるギャル、Linux エコシステムで活動するオープンソース低レイヤー開発者です。 Gentoo Kernel Project Leader, Gentoo Kernel Security, kci-dev and GKernelCI creator'
 SITEURL = 'https://aliceinwire.github.io/'
 SITELOGO = SITEURL + '/images/profile.jpg'
 FAVICON = SITEURL + '/images/favicon.ico'
