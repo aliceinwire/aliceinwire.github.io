@@ -8,7 +8,7 @@ Hello everyone,
 
 My name is Arisu Tachibana.  
 I’m the current Gentoo Kernel team leader, creator of KernelCI kci-dev and KernelCI Infra WG member.  
-Today I would like to talk about KernelCI configuration and my integration with CIP platforms.  
+Today I would like to talk about KernelCI configuration and our integration with CIP platforms.  
 
 KernelCI is the project that is used for testing Kernel tree, mostly upstream and development.  
 
