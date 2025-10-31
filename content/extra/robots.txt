@@ -1,0 +1,3 @@
+# Block everything under /drafts/
+User-agent: *
+Disallow: /drafts/
