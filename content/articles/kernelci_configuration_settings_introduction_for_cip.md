@@ -51,7 +51,7 @@ dtbs information can be get from the [following page](https://web.git.kernel.org
 
 ![kernelci_blog01_02]({static}/images/kernelci_blog01_02.png)    
 
-Compatible information can be got from the tools/extract_compatible.py tool
+Compatible information can be got from the [tools/extract_compatible.py](https://github.com/kernelci/kernelci-pipeline/blob/main/tools/extract_compatible.py) tool
 ```sh
 $ git clone https://github.com/kernelci/kernelci-pipeline.git
 $ cd kernelci-pipeline
