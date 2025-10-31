@@ -34,16 +34,33 @@ jobs:
     if: |
       github.repository == 'aliceinwire/aliceinwire.github.io' &&
       (github.event_name != 'pull_request' ||
-       github.event.pull_request.head.repo.full_name == github.repository)
+       github.event.pull_request.head.repo.full_name == github.repository) &&
+      !(github.event_name == 'push' &&
+        (github.actor == 'github-actions[bot]' ||
+         contains(github.event.head_commit.message, 'Compress Images') ||
+         contains(github.event.head_commit.message, 'Auto Compress Images')))
+     concurrency:
+      group: image-actions-${{ github.ref }}
+      cancel-in-progress: true
     steps:
       - name: Checkout Branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Compress Images
         id: calibre
         uses: calibreapp/image-actions@main
         with:
           # For non-Pull Requests, run in compressOnly mode and we'll PR after.
           compressOnly: ${{ github.event_name != 'pull_request' }}
+
+          # PRs keep the default ~5%; push/schedule use 15%.
+          minPctChange: ${{ github.event_name == 'pull_request' && '5' || '15' }}
+
+          # lock in image quality.
+          jpegQuality: '85'
+          jpegProgressive: false
+          pngQuality: '80'
+          webpQuality: '85'
+          avifQuality: '75'
       - name: Create Pull Request
         # If it's not a Pull Request then commit any changes as a new PR.
         if: |
