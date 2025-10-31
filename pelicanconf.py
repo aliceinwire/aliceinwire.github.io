@@ -6,9 +6,9 @@ AUTHOR = 'arisut'
 SITENAME = "Arisut's website"
 SITETITLE = "Arisut's website"
 SITESUBTITLE = 'オタクに理解のあるギャル、Linux エコシステムで活動するオープンソース低レイヤー開発者です。 Gentoo Kernel Project Leader, Gentoo Kernel Security, kci-dev and GKernelCI creator'
-SITEURL = 'https://aliceinwire.github.io/'
-SITELOGO = SITEURL + '/images/profile.jpg'
-FAVICON = SITEURL + '/images/favicon.ico'
+SITEURL = 'https://aliceinwire.github.io'
+SITELOGO = SITEURL + '/profile.jpg'
+FAVICON = SITEURL + '/favicon.ico'
 
 PATH = 'content'
 
@@ -25,6 +25,7 @@ STATIC_PATHS = ['images', 'extra']
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/profile.jpg': {'path': 'profile.jpg'},
     }
 
 # Feed generation is usually not desired when developing
