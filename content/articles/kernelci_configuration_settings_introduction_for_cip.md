@@ -15,20 +15,20 @@ KernelCI is the project that is used for testing Kernel tree, mostly upstream an
 CIP is the project creating SLTS (super long term support kernel), a kernel that is tested using KernelCI.  
 
 For details on the KernelCI project, please check this.  
-https://docs.kernelci.org/about/  
+[https://docs.kernelci.org/about/](https://docs.kernelci.org/about/)  
 For details on the CIP project, please check this.  
-https://www.cip-project.org/  
+[https://www.cip-project.org/](https://www.cip-project.org/)  
 CIP uses KernelCI for the Linux Kernel.  
-https://www.cip-project.org/about/linux-kernel-core-packages  
+[https://www.cip-project.org/about/linux-kernel-core-packages](https://www.cip-project.org/about/linux-kernel-core-packages)  
 
 For adding new boards we should have a lava lab connected with KernelCI,  
 my suggestion is to use lava-docker for simplify deploy of a lava laboratory  
-(https://github.com/BayLibre/lava-docker)
+([https://github.com/BayLibre/lava-docker](https://github.com/BayLibre/lava-docker))
 
 How to deploy lava-docker will probably be explained in the future, depending on this series sustainability.
 
 Let’s say that you have deployed a lava-docker and you have few devices connected to lava.
-You will get a page similar to the one below (https://lava.ciplatform.org/scheduler/device_types)
+You will get a page similar to the one below ([https://lava.ciplatform.org/scheduler/device_types](https://lava.ciplatform.org/scheduler/device_types))
 
 ![kernelci_blog01_01]({static}/images/kernelci_blog01_01.png)  
 
