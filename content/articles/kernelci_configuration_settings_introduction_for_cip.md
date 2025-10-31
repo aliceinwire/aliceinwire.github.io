@@ -4,6 +4,8 @@ Category: kernelci
 Tags: kernelci, kernel
 Status: draft
 
+[日本語版](https://www.cybertrust.co.jp/blog/linux-learning/kernelci-configuration-settings01.html)
+
 Hello everyone,
 
 My name is Arisu Tachibana.  
