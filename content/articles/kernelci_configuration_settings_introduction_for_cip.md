@@ -30,7 +30,7 @@ How to deploy lava-docker will probably be explained in the future, depending on
 Let’s say that you have deployed a lava-docker and you have few devices connected to lava.
 You will get a page similar to the one below (https://lava.ciplatform.org/scheduler/device_types)
 
-[image 1]  
+![kernelci_blog01_01]({static}/images/kernelci_blog01_01.png)  
 
 Let’s say that we want to connect zynqmp-zcu102 to KernelCI
 We will go to the platforms.yaml file to add the platform information of the platform we want to add
@@ -47,7 +47,7 @@ platforms:
 
 dtbs information can be get from the [following page](https://web.git.kernel.org/pub/scm/linux/kernel/git/cip/linux-cip.git/tree/arch/arm64/boot/dts/xilinx?h=linux-6.12.y-cip).
 
-[image 2]  
+![kernelci_blog01_02]({static}/images/kernelci_blog01_02.png)    
 
 Compatible information can be got from the tools/extract_compatible.py tool
 ```sh
@@ -108,6 +108,6 @@ job-gcc-12-arm64-cip: *baseline-job
 ```
 This will start a job in lava, like the [following example](https://lava.ciplatform.org/scheduler/job/1301506)  
 
-[image 3]  
+![kernelci_blog01_03]({static}/images/kernelci_blog01_03.png)      
 
 In the next chapter we will execute a simple job example and talk about KernelCI configuration inheritance.
