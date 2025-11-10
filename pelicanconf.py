@@ -36,8 +36,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Gentoo', 'https://wiki.gentoo.org/wiki/User:Alicef'),
-         ('rss', '//aliceinwire.github.io/feeds/all.atom.xml'))
+#LINKS = (('Gentoo', 'https://wiki.gentoo.org/wiki/User:Alicef'),
+#         ('rss', '//aliceinwire.github.io/feeds/all.atom.xml'))
 
 # Social widget
 SOCIAL = (
