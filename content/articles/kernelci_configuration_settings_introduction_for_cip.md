@@ -2,7 +2,7 @@ Title: An introduction to write KernelCI configuration settings for CIP SLTS Ker
 Date: 2025-10-28
 Category: kernelci
 Tags: kernelci, kernel
-Status: draft
+Status: published
 
 [日本語版](https://www.cybertrust.co.jp/blog/linux-learning/kernelci-configuration-settings01.html)
 
