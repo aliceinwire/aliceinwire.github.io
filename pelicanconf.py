@@ -43,6 +43,7 @@ SOCIAL = (
         ('threads', 'https://www.threads.com/@gyaru_arisu'),
         ('x', 'https://x.com/arisu_yamikawa'),
         ('mastodon', 'https://fosstodon.org/@alicef'),
+        ('github', 'https://github.com/aliceinwire'),
         ('rss', 'https://aliceinwire.github.io/feeds/all.atom.xml'))
 
 DEFAULT_PAGINATION = 10
